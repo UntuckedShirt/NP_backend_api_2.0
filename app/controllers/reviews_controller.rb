@@ -37,7 +37,7 @@ def create
     private
 
     def review_params
-        params.require(:review).permit(:title, :description, :rating, :game, :likes)
+        params.require(:review).permit(:title, :description, :rating, :game_id, :likes)
     end   
 
     def set_review
