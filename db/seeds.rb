@@ -9,12 +9,12 @@ Review.destroy_all
 Game.destroy_all
 
 games = Game.create([
-{title: "GuiltyGearStrive", publisher: "ArcSystems", publish_date: "May 14, 1998‎ - Present", console: "Playstation 4/Playstation 5", players: 2, image_url: "https://images.app.goo.gl/p3wfN5rJU5LUUPKX7"},
-{title: "VirtuaFighter Ultimate Showdown", publisher: "Sega", publish_date: "October 1993", console: "Playstation 4", players: 2, image_url: "https://images.app.goo.gl/GSzDQwTBKEgGiZh67"},
-{title: "DragonBallFighterZ", publisher: "ArcSystems", publish_date: "January 26, 2018", console: "Playstation 4/XboxOne", players: 2, image_url: "https://images.app.goo.gl/pN6YS1UcRknGx23x5"},
-{title: "SuperSmashBros Ultimate", publisher: "Nintendo", publish_date: "January 26, 2018", console: "Switch", players: 8, image_url: "https://images.app.goo.gl/ea4oL4GFLHDrXXUs9"},
-{title: "MortalKombat 11", publisher: "NeatherRealmStudios", publish_date: "April 23, 2019", console: "Playstation 4/Playstation 5/XboxOne, Xbox Series X", players: 2, image_url: "https://images.app.goo.gl/4FHSKk6e8TDiG3tR7"},
-{title: "Street Fighter 5", publisher: "Capcom, Dimps", publish_date: "February 16, 2016 - Present", console: "Playstation 4", players: 2, image_url: "https://images.app.goo.gl/11zFFvQnYxDUPYaW9"}
+{title: "GuiltyGearStrive", publisher: "ArcSystems", publish_date: "May 14, 1998‎ - Present", console: "Playstation 4/Playstation 5", players: 2, image_url: "https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/ogp/ogp.png"},
+{title: "VirtuaFighter Ultimate Showdown", publisher: "Sega", publish_date: "October 1993", console: "Playstation 4", players: 2, image_url: "https://www.videogameschronicle.com/files/2021/04/virtua-fighter-esport.jpg"},
+{title: "DragonBallFighterZ", publisher: "ArcSystems", publish_date: "January 26, 2018", console: "Playstation 4/XboxOne", players: 2, image_url: "https://cdn.akamai.steamstatic.com/steam/apps/678950/capsule_616x353.jpg?t=1617120109"},
+{title: "SuperSmashBros Ultimate", publisher: "Nintendo", publish_date: "January 26, 2018", console: "Switch", players: 8, image_url: "https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SuperSmashBrosUltimate_02_image1600w.jpg"},
+{title: "MortalKombat 11", publisher: "NeatherRealmStudios", publish_date: "April 23, 2019", console: "Playstation 4/Playstation 5/XboxOne, Xbox Series X", players: 2, image_url: "https://upload.wikimedia.org/wikipedia/en/7/7e/Mortal_Kombat_11_cover_art.png"},
+{title: "Street Fighter 5", publisher: "Capcom, Dimps", publish_date: "February 16, 2016 - Present", console: "Playstation 4", players: 2, image_url: "https://www.fightersgeneration.com/nz3/game/sf5-ryu-key-artwork.jpg"}
 ])
 
 reviews = Review.create([
